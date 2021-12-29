@@ -1,0 +1,154 @@
+.container-main-gamepage {
+  background-color: rgb(190, 185, 185);
+  background-image: url('../../image/interrogacao.gif') , url('../../image/interrogacao2.gif');
+  background-position: right , left;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  margin: 0;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.container-son-gamepage {
+  background-color: rgb(19, 194, 235);
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  min-height: 80vh;
+  width: 62%;
+}
+
+.container-questions {
+  background-color: rgb(7, 44, 99);
+  border-radius: 10px;
+  color: aliceblue;
+  display: flex;
+  font-size: 22px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 30px auto;
+  padding: 50px;
+}
+
+.button-answers {
+  background-color: rgb(7, 44, 99);
+  border-radius: 10px;
+  color: aliceblue;
+  display: flex;
+  font-weight: 500;
+  font-size: 19px;
+  text-align: left;
+  margin: 10px auto;
+  padding: 30px;
+  width: 45%;
+}
+
+.button-next {
+  background-color: rgb(7, 44, 99);
+  border-radius: 10px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 20px;
+  padding: 10px;
+  position: relative;
+  bottom: 85px;
+  width: 14%;
+}
+
+.container-counter {
+  background-color: aliceblue;
+  border-radius: 100%;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  margin: 20px auto;
+  min-width: 35px;
+  padding: 30px;
+}
+
+h4 {
+  display: flex;
+  margin: 0 auto 0;
+  opacity: 10%;
+  width: 45%;
+  visibility: hidden;
+}
+
+
+.loading {
+  animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  background: #fff;
+  background: linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #fff 10%, rgba(255, 255, 255, 0) 42%);
+  border-radius: 50%;
+  font-size: 10px;
+  height: 11em;
+  margin: 50px auto;
+  position: relative;
+  text-indent: -9999em;
+  transform: translateZ(0);
+  transform: translateZ(0);
+  transform: translateZ(0);
+  width: 11em;
+}
+
+.loading:before {
+  background: #fff;
+  border-radius: 100% 0 0;
+  content: '';
+  height: 50%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 50%;
+}
+
+.loading:after {
+  background: #0dc5c1;
+  border-radius: 50%;
+  bottom: 0;
+  content: '';
+  height: 75%;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 75%;
+}
+
+@keyframes load3 {
+
+  0% {
+    transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load3 {
+
+  0% {
+    transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
